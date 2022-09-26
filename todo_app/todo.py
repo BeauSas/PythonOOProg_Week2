@@ -1,9 +1,10 @@
-def MakeTodoList():
-    todolist = []
-    endAction = 'n'
-    loopAction = None
-    loopCount = 0
+todolist = []
+endAction = 'n'
+loopAction = None
+loopCount = 0
+removeInput = None
 
+def MakeTodoList():
     while loopAction != endAction:
         loopCount += 1
         item_name = input("Describe your item: ")
@@ -19,3 +20,8 @@ def MakeTodoList():
         loopAction = input("Add another item? (y/n): ")
 
     print(todolist)
+
+def EraseItem(): #NOG TOEVOEGEN IN MAIN VIA MENU
+    print(todolist)
+    removeInput = input("What item should be removed? (give ID number): ")
+    todolist.pop(removeInput)
