@@ -1,7 +1,5 @@
 # Todo list & deadlines Labo - Week 2
 
-|-----------------------------------|
-
 In deze app vinden we de volgende functionaliteit terug:
 
 1. De gebruiker wordt gevraagd om zijn item in te voeren.
