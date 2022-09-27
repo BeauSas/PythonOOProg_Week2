@@ -1,2 +1,3 @@
 # PythonOOProg_Week2
-Python for my classes
+
+Uitleg in het lab_week2.md document.
